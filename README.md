@@ -4,6 +4,9 @@ This project is a demo of Red Hat SSO (Keycloak) authentication with ReactJS. <b
 
 In the project directory, you can run:
 
+### `npm install package.json`
+Builds the project and downloads project dependencies
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
