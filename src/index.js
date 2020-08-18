@@ -8,7 +8,7 @@ import * as serviceWorker from './serviceWorker';
 import Keycloak from 'keycloak-js'
 
 let initOptions = {
-  url: 'http://sso.nvsconsulting.io/auth', realm: 'test-app', clientId: 'react-test-app', onLoad: 'login-required'
+  url: 'https://sso.nvsconsulting.io/auth', realm: 'test-app', clientId: 'react-test-app2', onLoad: 'login-required'
 }
 
 let keycloak = Keycloak(initOptions);
